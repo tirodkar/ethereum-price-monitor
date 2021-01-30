@@ -16,22 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Yw-Bj-7KN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="AYD-b8-Vdk">
-                                        <rect key="frame" x="150" y="274" width="20" height="20"/>
-                                        <color key="color" systemColor="systemOrangeColor"/>
-                                    </activityIndicatorView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="AYD-b8-Vdk" firstAttribute="centerY" secondItem="9Yw-Bj-7KN" secondAttribute="centerY" id="wMD-Gs-hgj"/>
-                                    <constraint firstItem="AYD-b8-Vdk" firstAttribute="centerX" secondItem="9Yw-Bj-7KN" secondAttribute="centerX" id="zfD-Gu-MyR"/>
-                                </constraints>
-                            </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="fDl-hk-SQQ">
-                                <rect key="frame" x="92" y="276" width="195" height="177"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="AYD-b8-Vdk">
+                                <rect key="frame" x="141" y="265" width="37" height="37"/>
+                                <color key="color" systemColor="systemOrangeColor"/>
+                            </activityIndicatorView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="fDl-hk-SQQ">
+                                <rect key="frame" x="62.5" y="195.5" width="195" height="177"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brm-bj-A7P" userLabel="Current Price">
                                         <rect key="frame" x="9.5" y="0.0" width="176" height="36"/>
@@ -62,17 +52,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="9Yw-Bj-7KN" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="1zl-gt-a5p"/>
-                            <constraint firstItem="9Yw-Bj-7KN" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="7VQ-Wy-eoF"/>
-                            <constraint firstItem="9Yw-Bj-7KN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Jsg-4x-7sr"/>
+                            <constraint firstItem="AYD-b8-Vdk" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Glw-HS-2Wi"/>
                             <constraint firstItem="fDl-hk-SQQ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="aMt-ji-hay"/>
                             <constraint firstItem="fDl-hk-SQQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cTC-B8-oKp"/>
-                            <constraint firstItem="9Yw-Bj-7KN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mP6-eM-OOn"/>
+                            <constraint firstItem="AYD-b8-Vdk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="laf-7L-PDs"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="AYD-b8-Vdk" id="dQf-vB-b5T"/>
                         <outlet property="currentPriceLabel" destination="BRh-mV-zLI" id="psW-8m-6lg"/>
-                        <outlet property="loadingView" destination="9Yw-Bj-7KN" id="6IZ-ri-JTb"/>
+                        <outlet property="mainStackView" destination="fDl-hk-SQQ" id="7dv-V1-iN0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

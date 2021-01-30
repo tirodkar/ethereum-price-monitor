@@ -16,6 +16,7 @@
 		1839ED4625C56234005EC5FF /* EthereumPriceMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED4525C56234005EC5FF /* EthereumPriceMonitorTests.swift */; };
 		1839ED5125C56234005EC5FF /* EthereumPriceMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED5025C56234005EC5FF /* EthereumPriceMonitorUITests.swift */; };
 		1839ED6525C5771D005EC5FF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED6425C5771D005EC5FF /* APIService.swift */; };
+		1839ED6B25C58D2E005EC5FF /* Cryptocurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED6A25C58D2E005EC5FF /* Cryptocurrency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1839ED5025C56234005EC5FF /* EthereumPriceMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthereumPriceMonitorUITests.swift; sourceTree = "<group>"; };
 		1839ED5225C56234005EC5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1839ED6425C5771D005EC5FF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		1839ED6A25C58D2E005EC5FF /* Cryptocurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		1839ED2D25C56232005EC5FF /* EthereumPriceMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				1839ED6925C58D1F005EC5FF /* Model */,
 				1839ED2E25C56232005EC5FF /* AppDelegate.swift */,
 				1839ED3025C56232005EC5FF /* SceneDelegate.swift */,
 				1839ED3225C56232005EC5FF /* PriceViewController.swift */,
@@ -129,6 +132,14 @@
 				1839ED5225C56234005EC5FF /* Info.plist */,
 			);
 			path = EthereumPriceMonitorUITests;
+			sourceTree = "<group>";
+		};
+		1839ED6925C58D1F005EC5FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1839ED6A25C58D2E005EC5FF /* Cryptocurrency.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			files = (
 				1839ED3325C56232005EC5FF /* PriceViewController.swift in Sources */,
 				1839ED2F25C56232005EC5FF /* AppDelegate.swift in Sources */,
+				1839ED6B25C58D2E005EC5FF /* Cryptocurrency.swift in Sources */,
 				1839ED6525C5771D005EC5FF /* APIService.swift in Sources */,
 				1839ED3125C56232005EC5FF /* SceneDelegate.swift in Sources */,
 			);

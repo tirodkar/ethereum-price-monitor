@@ -25,20 +25,3 @@ final class APIService {
     }
   }
 }
-
-struct Cryptocurrency: Decodable {
-  let name: Ethereum
-  
-  enum CodingKeys: String, CodingKey {
-    case name = "ethereum"
-     }
-  
-  struct Ethereum: Decodable {
-    let price: Double
-    
-    enum CodingKeys: String, CodingKey {
-      case price = "pln"
-       }
-  }
-}
-

@@ -8,8 +8,9 @@
 import UIKit
 
 final class PriceViewController: UIViewController {
-  
-  @IBOutlet weak private var loadingView: UIView!
+
+  @IBOutlet weak private var mainStackView: UIStackView!
+  @IBOutlet weak private var activityIndicator: UIActivityIndicatorView!
   @IBOutlet weak private var currentPriceLabel: UILabel! { didSet {
     currentPriceLabel.text = ""
   }}
@@ -25,17 +26,18 @@ final class PriceViewController: UIViewController {
   }
   
   private func getEthereumPrice() {
-    loadingView.isHidden = false
+    mainStackView.isHidden = true
+    activityIndicator.isHidden = false
     apiService.getEthereumPrice { [weak self] result in
       switch result {
       case .success(let crypto):
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
           self?.updatePriceLabel(with: crypto.name.price)
-          self?.loadingView.isHidden = true
+          self?.activityIndicator.isHidden = true
+          self?.mainStackView.isHidden = false
         }
       case .failure(let error):
         print(error.localizedDescription)
-        self?.loadingView.isHidden = true
       }
     }
   }
