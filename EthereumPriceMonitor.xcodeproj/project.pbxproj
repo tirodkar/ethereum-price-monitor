@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1839ED2F25C56232005EC5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED2E25C56232005EC5FF /* AppDelegate.swift */; };
 		1839ED3125C56232005EC5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED3025C56232005EC5FF /* SceneDelegate.swift */; };
-		1839ED3325C56232005EC5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED3225C56232005EC5FF /* ViewController.swift */; };
+		1839ED3325C56232005EC5FF /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED3225C56232005EC5FF /* PriceViewController.swift */; };
 		1839ED3625C56232005EC5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839ED3425C56232005EC5FF /* Main.storyboard */; };
 		1839ED3825C56234005EC5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1839ED3725C56234005EC5FF /* Assets.xcassets */; };
 		1839ED3B25C56234005EC5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839ED3925C56234005EC5FF /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		1839ED2B25C56232005EC5FF /* EthereumPriceMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EthereumPriceMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1839ED2E25C56232005EC5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1839ED3025C56232005EC5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1839ED3225C56232005EC5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1839ED3225C56232005EC5FF /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
 		1839ED3525C56232005EC5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1839ED3725C56234005EC5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1839ED3A25C56234005EC5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				1839ED2E25C56232005EC5FF /* AppDelegate.swift */,
 				1839ED3025C56232005EC5FF /* SceneDelegate.swift */,
-				1839ED3225C56232005EC5FF /* ViewController.swift */,
+				1839ED3225C56232005EC5FF /* PriceViewController.swift */,
 				1839ED3425C56232005EC5FF /* Main.storyboard */,
 				1839ED3725C56234005EC5FF /* Assets.xcassets */,
 				1839ED3925C56234005EC5FF /* LaunchScreen.storyboard */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1839ED3325C56232005EC5FF /* ViewController.swift in Sources */,
+				1839ED3325C56232005EC5FF /* PriceViewController.swift in Sources */,
 				1839ED2F25C56232005EC5FF /* AppDelegate.swift in Sources */,
 				1839ED3125C56232005EC5FF /* SceneDelegate.swift in Sources */,
 			);
