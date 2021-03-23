@@ -14,8 +14,12 @@ final class PriceViewController: UIViewController {
   @IBOutlet weak private var currentPriceLabel: UILabel! { didSet {
     currentPriceLabel.text = ""
   }}
-  private var price = 0
-  private var apiService = APIService()
+  private var apiService: APIServiceProtocol = APIService()
+  
+  convenience init(apiService: APIServiceProtocol = APIService()) {
+    self.init()
+    self.apiService = apiService
+  }
   
   override func viewDidLoad() {
     getEthereumPrice()
@@ -38,6 +42,9 @@ final class PriceViewController: UIViewController {
         }
       case .failure(let error):
         print(error.localizedDescription)
+        self?.currentPriceLabel.text = "ERROR"
+        self?.activityIndicator.isHidden = true
+        self?.mainStackView.isHidden = false
       }
     }
   }

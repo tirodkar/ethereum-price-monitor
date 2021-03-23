@@ -7,7 +7,11 @@
 
 import Foundation
 
-final class APIService {
+protocol APIServiceProtocol {
+  func getEthereumPrice(completionHandler: @escaping (Result<Cryptocurrency, Error>) -> Void)
+}
+
+final class APIService: APIServiceProtocol {
   
   func getEthereumPrice(completionHandler: @escaping (Result<Cryptocurrency, Error>) -> Void) {
     let url = "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=pln"
