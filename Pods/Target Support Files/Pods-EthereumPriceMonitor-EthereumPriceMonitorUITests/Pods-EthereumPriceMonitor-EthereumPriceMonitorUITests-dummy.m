@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests
+@end

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-frameworks.sh
+${PODS_ROOT}/EarlGreyApp/EarlGreyApp/AppFramework.framework
+${BUILT_PRODUCTS_DIR}/EarlGreyTest/EarlGreyTest.framework
+${BUILT_PRODUCTS_DIR}/eDistantObject/eDistantObject.framework
