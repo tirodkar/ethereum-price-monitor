@@ -707,14 +707,15 @@
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EarlGreyTest/EarlGreyTest.framework/Headers\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/eDistantObject/eDistantObject.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/EarlGreyTest/TestLib/EarlGreyImpl/\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/EarlGreyTest/AppFramework/Action\"",
+					"\"${PODS_ROOT}/EarlGreyTest/TestLib/EarlGreyImpl/\"/**",
+					"\"${PODS_ROOT}/EarlGreyTest/AppFramework/Action\"/**",
 				);
 				"HEADER_SEARCH_PATHS[arch=*]" = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EarlGreyTest/EarlGreyTest.framework/Headers\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/eDistantObject/eDistantObject.framework/Headers\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/EarlGreyTest/TestLib/EarlGreyImpl/\"",
+					"\"${PODS_ROOT}/EarlGreyTest/TestLib/EarlGreyImpl/\"/**",
+					"\"${PODS_ROOT}/EarlGreyTest/AppFramework/Action\"/**",
 				);
 				INFOPLIST_FILE = EthereumPriceMonitorUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
