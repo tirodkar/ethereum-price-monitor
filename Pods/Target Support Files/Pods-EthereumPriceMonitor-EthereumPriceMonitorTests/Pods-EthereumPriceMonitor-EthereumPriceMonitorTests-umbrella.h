@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_EthereumPriceMonitorTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_EthereumPriceMonitorTestsVersionString[];
+FOUNDATION_EXPORT double Pods_EthereumPriceMonitor_EthereumPriceMonitorTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_EthereumPriceMonitor_EthereumPriceMonitorTestsVersionString[];
 

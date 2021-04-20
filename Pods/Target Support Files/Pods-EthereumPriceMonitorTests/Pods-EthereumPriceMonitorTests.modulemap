@@ -1,6 +1,0 @@
-framework module Pods_EthereumPriceMonitorTests {
-  umbrella header "Pods-EthereumPriceMonitorTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

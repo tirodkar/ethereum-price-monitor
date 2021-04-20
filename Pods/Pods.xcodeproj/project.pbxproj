@@ -38,7 +38,6 @@
 		0C9A5564EEC77C3C534C232A73794D92 /* EDOObject+Invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D3E2D951A4F6F1401D17B8951EA77 /* EDOObject+Invocation.m */; };
 		0D0DD0A2C52CED777250CFB9CD9B8324 /* EDODeviceDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D56EB9E784EBA6316C96102DBB24E27A /* EDODeviceDetector.m */; };
 		0F41C8C80AA667653E6B10362E550BAC /* GREYActionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 388A3826180020297527803BDDCB0198 /* GREYActionBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1010AF13C829BE9066224216CBC0472F /* Pods-EthereumPriceMonitorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA09731347858477E3EB5E51BA80D69 /* Pods-EthereumPriceMonitorTests-dummy.m */; };
 		10ABC34E707635288AAA1863D3B67A67 /* NSError+GREYCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F096D0043458353F3429C21964C18AD /* NSError+GREYCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		11D1DD6B5A7030158C2419AA628A0582 /* GREYProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CB3F93F1299B5787841C5151A69956 /* GREYProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1229568A7D92637512ECB1C131D6347A /* GREYDefaultFailureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8B0729761FB48151ED70369C584B21 /* GREYDefaultFailureHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -47,12 +46,13 @@
 		15C47455AD15ACFA2497E436F9F92C5F /* EDOObject+EDOParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5158BB13EA1D84F97B24B5CBAE22E9B /* EDOObject+EDOParameter.m */; };
 		160AD4C09043636C712AEAC23494FC4F /* GREYFailureScreenshotSaver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5B8CFD4C90191EF20ADCFE14FFAFCE /* GREYFailureScreenshotSaver.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		162D8F323CFB0C0E779D462882FC1D34 /* EDOObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 122EDC34CCB79FCC5BA31749CD4ED084 /* EDOObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1669768AFD217AA7C63BC37B776A5442 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3600F8C9558793B35A260CB066DE7BD9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		169A20A4D0FE35B212E1D287F0B31D9C /* GREYActionBlock+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 796162966A404E0A5F7CEEBA19B712F0 /* GREYActionBlock+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		170737A74EE9C3D5B63DC62DB041C1C3 /* GREYTestApplicationDistantObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC013E3BA4943C85EB9FFBDBC7D267 /* GREYTestApplicationDistantObject.m */; };
 		17E7507AAE16456AFC3CE46DC5842244 /* GREYConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265B8E3492EB79CFCFCB6A18332E04F /* GREYConfiguration.m */; };
 		1809C15644815C1D889ED5ACB0F5B1DC /* EDOHostService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD83C9157EA7BBF700599E68F61E644 /* EDOHostService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18258F7EBD332D762CC88F802A2EF92A /* EDOTimingFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8142463DF3729CF40D941600E4616DFF /* EDOTimingFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		195EAB4462CB17025D95FE18D6B89BC9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBD5861B0BF659A8988DA53860D393C /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		195EAB4462CB17025D95FE18D6B89BC9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8473C14265ADF69F195651570A5F8B5C /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C20AFC769F119947DE317A20EDB5424 /* GREYStringDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 878FD9696BF52B2FF4F93CA8D0D86445 /* GREYStringDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1C782DF9F0D0B8DED7566491939AB857 /* GREYAllOf+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 498376DE3EA4114D097801B58BC69B2B /* GREYAllOf+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1CCEA19C5C8B74B25B7283E7B526879E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F3B3BF014C87CEB1BBEDD4E42CBB3 /* Foundation.framework */; };
@@ -88,7 +88,6 @@
 		34EEEFA0943BE4DC82BA6C6B70AF0A1A /* EDOServicePort.m in Sources */ = {isa = PBXBuildFile; fileRef = 097CB91E4D74FB077403CC510999DE2C /* EDOServicePort.m */; };
 		355747D5AE3D24F0EAEFC33CC39165E8 /* GREYDispatchQueueTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = F92872AE07ED71B2AA59ABB6E8A8200F /* GREYDispatchQueueTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		369CA16048763FA0DD9240101D99FDAE /* EarlGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C10358559DB5086440C651D2EF3F364 /* EarlGrey.m */; };
-		37675CFFCC6CD7A66A027087609849C0 /* Pods-EthereumPriceMonitorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 441395AB61B3E14E306474E9FEA77084 /* Pods-EthereumPriceMonitorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3781CA738D3B3231CCAF33F9F2BCCBF1 /* EDOClientServiceStatsCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 415645AC045B4F60334107EF69DBDCFF /* EDOClientServiceStatsCollector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		389E8DA13806055F12C893EAB0443634 /* GREYObjcRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 50195CC4B01A999673427154E7FD7268 /* GREYObjcRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		38CB35EC2C2579A16348402FD4EC6B3E /* NSObject+EDOValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8D56C87B04073240B2483E42353F72 /* NSObject+EDOValue.m */; };
@@ -113,7 +112,7 @@
 		3F8E298562367C499FCE53A31E551330 /* GREYNSTimerIdlingResource.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A93A1D619ACB515CE97081D948434C /* GREYNSTimerIdlingResource.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3FB890CEA2931B33D727AD39FA126D72 /* XCUIApplication+GREYEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959A5279ADAF02EA60F2DC4D3FF6EAD /* XCUIApplication+GREYEnvironment.m */; };
 		403702BFDDDF68FAACA05FAC191BA1C4 /* UIGestureRecognizer+GREYApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE1902278E3A7AFDD5315A694AACBE8 /* UIGestureRecognizer+GREYApp.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		40913A3844C0022C263C21F82EE94892 /* Pods-EthereumPriceMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A08D16CCCD93FDB105D31D73B0A226C /* Pods-EthereumPriceMonitor-dummy.m */; };
+		40913A3844C0022C263C21F82EE94892 /* Pods-EthereumPriceMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B96B5B82C1895A9FD6497742095FA59 /* Pods-EthereumPriceMonitor-dummy.m */; };
 		41AA4821AB9CD38CD8058C04515BF2B4 /* GREYLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F661B2DFB4BE01716176A9B9711466 /* GREYLayoutConstraint.m */; };
 		425F9AA3F493D68569AD07F521766459 /* EDOSocketPort.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB0CBBF164945069D56D3DEA5EBBEC4 /* EDOSocketPort.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42FAB2316846292AB9BD6A0CDA500DE3 /* EDOInvocationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA4234D8BD9140BEE94152BAAAD117E /* EDOInvocationMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -138,6 +137,7 @@
 		54B57856C855235905DA63104E9A9803 /* EDOClientServiceStatsCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 367B5CE79E5C624757632F1607DB0BC5 /* EDOClientServiceStatsCollector.m */; };
 		555E2061BD0CA4F60C95DEA4E0BC76D3 /* GREYDescribeVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1F2E23BC542C8FACB432F4F9EF90C4 /* GREYDescribeVariable.m */; };
 		55634C1FDD0AFFAFC56D33CFA2CDC031 /* GREYSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C54F1B6F732C4D48F9E4D235C12CBE1 /* GREYSwizzler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55C0EA6C28EDEE2DAFEB867AF261E59F /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2C7AFBE7CCB5ADE40673D376574BC /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-dummy.m */; };
 		5655B353A17BE021F3F03FCC7AAA2CBE /* EDODeallocationTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3A55C8A53C2982FEDF108EBE4E9CE9 /* EDODeallocationTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		57B0C2E7EB35DC652B7C095AFB53BD09 /* GREYInteractionDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CADD9B6A76F2F83953B4D8C7A2972F7 /* GREYInteractionDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		587E02AF050F6EF8CEED8732D2CAD0FC /* GREYAssertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7C5335DAD39B39233DE8B9F2AC9D23 /* GREYAssertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -167,7 +167,7 @@
 		65468A6131C0DB54461864236E9A7B48 /* EDODeviceChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776EE8F739067EDC8062F5516678CDA /* EDODeviceChannel.m */; };
 		658A9DCC8875339DD5F33F4C9F3827B9 /* NSObject+EDOParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = A12B42FAFECFB016C542B17BAAB5A446 /* NSObject+EDOParameter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		65CC23571B7B656CF872C48E3BAA4ECE /* EDORemoteException.h in Headers */ = {isa = PBXBuildFile; fileRef = CF493048087C37C1E3699990D1F93C56 /* EDORemoteException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		681A60B19C6C1329E249696D844F5F90 /* Pods-EthereumPriceMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC02A198CB89773854DFE429EDC4AFD /* Pods-EthereumPriceMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		681A60B19C6C1329E249696D844F5F90 /* Pods-EthereumPriceMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7716C52102EB3C6F979DAF030AF45C5B /* Pods-EthereumPriceMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		684D5DDA92B0F20D4359B582D5C91E94 /* GREYFailureHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5C449BC7388F03102068E63D273BA0 /* GREYFailureHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68DAA8E27B663FA5F1E8DCA6BC0D0B56 /* EDOObjectReleaseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A188D45A06863585AC429F5A9ED1CA /* EDOObjectReleaseMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		692E4E050196DD0C8D53924C5546A947 /* GREYVisibilityChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B4DA88402C7DF1A0B54983AE88F897 /* GREYVisibilityChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -183,7 +183,6 @@
 		713CDC7C9E7B15A53AD7E18C63570A0C /* GREYFrameworkException.h in Headers */ = {isa = PBXBuildFile; fileRef = DABC5E3914E53ECA35B607C070E5B51A /* GREYFrameworkException.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7358A73F7C9ADA8D35BE87C4F080CC4F /* GREYBaseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3B9595E55F69BE389E5B49DFBEE90B /* GREYBaseMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7460E80F72E1B71F38C6977ACC7A37E2 /* GREYHostBackgroundDistantObject+GREYApp.h in Headers */ = {isa = PBXBuildFile; fileRef = A99C580F1AE6FF754C12BFC9627A3A39 /* GREYHostBackgroundDistantObject+GREYApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74DADBD54FF9977B0172F76A655AD85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F3B3BF014C87CEB1BBEDD4E42CBB3 /* Foundation.framework */; };
 		75BDE1A667AC275F74FFAE067CC41C97 /* NSURLSession+GREYApp.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A9F255322A87093E25E0C8A77F1BBE /* NSURLSession+GREYApp.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		75E325A107A9454045663215968E9764 /* EDOBlockingQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B43DBA93569FBC0E775F982184FEF8DD /* EDOBlockingQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7845FD638CA25F0B845895BA877697C4 /* GREYAssertionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BD352C525A273FE60C1637CFCA22AE88 /* GREYAssertionBlock.m */; };
@@ -199,6 +198,7 @@
 		80C71EF592578F7C6237A760F4B89BAD /* EDOExecutorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 53907EC619F6DC29C22D84F4D58602D6 /* EDOExecutorMessage.m */; };
 		80D2BE4902CAFCF786D38B7653670902 /* EDOValueType.m in Sources */ = {isa = PBXBuildFile; fileRef = 585A1401D2B5A4520910796842ADD0E9 /* EDOValueType.m */; };
 		81D2016A5A0A6FABF78CD096FCF7491E /* GREYRemoteExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5629BAB4D8BC9E3616871CCD20D76 /* GREYRemoteExecutor.m */; };
+		8263FF09F31EDDC234A8D5C2E4952A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F3B3BF014C87CEB1BBEDD4E42CBB3 /* Foundation.framework */; };
 		82D35FFA54AD3DD29F90174F703D294F /* GREYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = B98929A15C3DCEDD266BD3540E3A5DC0 /* GREYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		846F6C89CB27556B563BE7672D856B61 /* EDOObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EA827B839B72F772679D19F750599EC4 /* EDOObject.m */; };
 		8520E7B59A79D9BDE5001671601F0FF4 /* GREYElementInteractionProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C91E37710080F583F9E3965C275A53 /* GREYElementInteractionProxy.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -348,7 +348,7 @@
 		F4F1F81BB191FEE897A98B68708853CC /* EDOChannelErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E334D04C9A52B4B68B10D05D49814253 /* EDOChannelErrors.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F515FE9A638D3F81E1B7A5F319230051 /* EDOMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1055B6EF83DF3A02D71BD8918ECF1E7C /* EDOMessage.m */; };
 		F522BAD882DAB9593F746E9C665DC20C /* GREYAssertionBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 72963A68AFFD2FFD1FCBF739DACB4886 /* GREYAssertionBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F60A1C19E319F8AF1DF8EEA80537F3C8 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46750B2303DB82A1E12042AAFEF7237 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m */; };
+		F60A1C19E319F8AF1DF8EEA80537F3C8 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641DF2BCA0D4167B18ADE27A327C1596 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m */; };
 		F6D0A0C2D26ACC66929C10F3CADCA382 /* UITextSelectionView+GREYApp.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C45ACF66B7E208FD9EF5B45F7D546A /* UITextSelectionView+GREYApp.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F6DA8A4D24985CAF6A849A45601C3990 /* GREYMatchersShorthand.h in Headers */ = {isa = PBXBuildFile; fileRef = 357F5CE9CC0CB7E7653ABC0B07AA4CD3 /* GREYMatchersShorthand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F721CBDFF8A232B11B683D1497F3C9B9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C036D2F7B2C9B3118D7443D0FF5BBB47 /* XCTest.framework */; };
@@ -364,13 +364,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		104DFC4C66996921179B1D28AF7CADD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 160154909F5A5923DFA406EB24221ADE;
-			remoteInfo = "Pods-EthereumPriceMonitor";
-		};
 		612E21306E723218A682C2A0CB8A65D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -391,6 +384,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5FDEEE4CB65D69CAC0C55A1DA021A929;
 			remoteInfo = eDistantObject;
+		};
+		8F95C5D266F151063209DEFCBC5869D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B9ABDD8D0C5582FC09597CD05782E8A;
+			remoteInfo = EarlGreyApp;
 		};
 		A1F8500F76F47778F5E5EA0174E6F7D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -447,18 +447,21 @@
 		14054663D2EEB2F311EA16DBB815051B /* GREYThoroughVisibilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYThoroughVisibilityChecker.h; path = UILib/Visibility/GREYThoroughVisibilityChecker.h; sourceTree = "<group>"; };
 		14CB917059922CEF5AE12CA8BBA0A8BD /* GREYTestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTestConfiguration.h; path = TestLib/Config/GREYTestConfiguration.h; sourceTree = "<group>"; };
 		15BCFE62322F1426D50CF0BC8D82328C /* GREYTestApplicationDistantObject+GREYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYTestApplicationDistantObject+GREYLogger.h"; path = "TestLib/DistantObject/GREYTestApplicationDistantObject+GREYLogger.h"; sourceTree = "<group>"; };
+		16C4307C5885413F5A5A32BF63C3AC90 /* Pods-EthereumPriceMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-Info.plist"; sourceTree = "<group>"; };
 		16E11A625EB8BDD6A522CCC462501D86 /* NSBlock+EDOInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBlock+EDOInvocation.m"; path = "Service/Sources/NSBlock+EDOInvocation.m"; sourceTree = "<group>"; };
+		178B957C583240D1F9E5F5DFC015E9FC /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1AB26DB1119E749BA7B68361668CEA25 /* GREYElementFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYElementFinder.h; path = AppFramework/Core/GREYElementFinder.h; sourceTree = "<group>"; };
+		1BD34E7F287B2E85BAC4347BD33943B2 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C26D26C0C79B6DD6613E2F68AED2253 /* GREYPickerAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYPickerAction.h; path = AppFramework/Action/GREYPickerAction.h; sourceTree = "<group>"; };
 		1C975DE62481F06908A45C0AC67D4F05 /* EDOProtocolObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOProtocolObject.m; path = Service/Sources/EDOProtocolObject.m; sourceTree = "<group>"; };
 		1CBA7D9D75933CAA9A8EF9DD877FA5C0 /* GREYAllOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAllOf.h; path = AppFramework/Matcher/GREYAllOf.h; sourceTree = "<group>"; };
+		1CBD60C580B8DB2ED1A9AE6C965FC8E0 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		1F096D0043458353F3429C21964C18AD /* NSError+GREYCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+GREYCommon.h"; path = "CommonLib/Error/NSError+GREYCommon.h"; sourceTree = "<group>"; };
 		2112C6E3F9B63E2567E66042DC9A068C /* UIViewController+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GREYApp.h"; path = "AppFramework/Additions/UIViewController+GREYApp.h"; sourceTree = "<group>"; };
 		213C1126D641E9C9BD2C557119F1E904 /* GREYObjectDeallocationTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYObjectDeallocationTracker.h; path = AppFramework/Synchronization/GREYObjectDeallocationTracker.h; sourceTree = "<group>"; };
 		21A554DA9408754AD31E8B61899CF634 /* NSProxy+EDOParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProxy+EDOParameter.m"; path = "Service/Sources/NSProxy+EDOParameter.m"; sourceTree = "<group>"; };
 		226FA145632ADD63F7ED2D05BCC110A4 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BEAE0CF64D7D7E24844832A54D4A01 /* GREYSwipeAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYSwipeAction.h; path = AppFramework/Action/GREYSwipeAction.h; sourceTree = "<group>"; };
-		22D008006AA3A34D25F6DF7053F24B31 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		22D2C23E73005D2D9864957F60C8E423 /* GREYHostStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYHostStub.m; path = TestLib/DistantObject/GREYHostStub.m; sourceTree = "<group>"; };
 		24EF12B1BFCF3D7430B6A35293E36CAB /* EDOChannelForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOChannelForwarder.m; path = Channel/Sources/EDOChannelForwarder.m; sourceTree = "<group>"; };
 		2636563D4B4C0CADF78B277CA0C76342 /* GREYTestApplicationDistantObject+GREYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GREYTestApplicationDistantObject+GREYLogger.m"; path = "TestLib/DistantObject/GREYTestApplicationDistantObject+GREYLogger.m"; sourceTree = "<group>"; };
@@ -477,12 +480,12 @@
 		32D0683D8E838B0355AA16BDCFC12054 /* GREYAutomationSetup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAutomationSetup.h; path = AppFramework/AutomationSetup/GREYAutomationSetup.h; sourceTree = "<group>"; };
 		330D8CB234123B2632E37D58ACE59D83 /* GREYDescribeVariable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDescribeVariable.h; path = TestLib/Assertion/GREYDescribeVariable.h; sourceTree = "<group>"; };
 		357F5CE9CC0CB7E7653ABC0B07AA4CD3 /* GREYMatchersShorthand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYMatchersShorthand.h; path = AppFramework/Matcher/GREYMatchersShorthand.h; sourceTree = "<group>"; };
+		35A171EAF7E618059DE5EC057CABED13 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-frameworks.sh"; sourceTree = "<group>"; };
+		3600F8C9558793B35A260CB066DE7BD9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-umbrella.h"; sourceTree = "<group>"; };
 		367B5CE79E5C624757632F1607DB0BC5 /* EDOClientServiceStatsCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOClientServiceStatsCollector.m; path = Service/Sources/EDOClientServiceStatsCollector.m; sourceTree = "<group>"; };
-		375FE84D49AA15C8559CA156AE8912C0 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap"; sourceTree = "<group>"; };
 		382740A9719EAB4ECDDDCD5724995E58 /* GREYErrorFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYErrorFormatter.m; path = CommonLib/Error/GREYErrorFormatter.m; sourceTree = "<group>"; };
 		388A3826180020297527803BDDCB0198 /* GREYActionBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYActionBlock.h; path = AppFramework/Action/GREYActionBlock.h; sourceTree = "<group>"; };
 		39A5AFFAE8F5303BA4B903500266F3EE /* XCTestCase+GREYSystemAlertHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+GREYSystemAlertHandler.m"; path = "TestLib/AlertHandling/XCTestCase+GREYSystemAlertHandler.m"; sourceTree = "<group>"; };
-		39FFCE8B61B3169CCE05DF363787113E /* Pods-EthereumPriceMonitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-acknowledgements.plist"; sourceTree = "<group>"; };
 		3AFDDFFEC97FCDF9B9735AEC7D3FBF2A /* GREYErrorConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYErrorConstants.m; path = CommonLib/Error/GREYErrorConstants.m; sourceTree = "<group>"; };
 		3BD83C9157EA7BBF700599E68F61E644 /* EDOHostService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOHostService.h; path = Service/Sources/EDOHostService.h; sourceTree = "<group>"; };
 		3BDF48299F48BE70599DBEEF74BC844C /* GREYTestCaseInvocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYTestCaseInvocation.m; path = TestLib/XCTestCase/GREYTestCaseInvocation.m; sourceTree = "<group>"; };
@@ -500,7 +503,7 @@
 		41A9112A1350D8DFE1C423DED1136543 /* EDOChannelUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOChannelUtil.m; path = Channel/Sources/EDOChannelUtil.m; sourceTree = "<group>"; };
 		435E979C3DC4C0210B71684F2AE5F693 /* GREYKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYKeyboard.h; path = AppFramework/Keyboard/GREYKeyboard.h; sourceTree = "<group>"; };
 		43C02FD4081C6E89189FDDE7DA631F95 /* GREYObjcRuntime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYObjcRuntime.m; path = CommonLib/GREYObjcRuntime.m; sourceTree = "<group>"; };
-		441395AB61B3E14E306474E9FEA77084 /* Pods-EthereumPriceMonitorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthereumPriceMonitorTests-umbrella.h"; sourceTree = "<group>"; };
+		452C0AC0DE33B265C943ABFE1E9D7AF5 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		45CCBFDEA9BB5D4DABA4AC2719C8FB21 /* GREYTestApplicationDistantObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTestApplicationDistantObject.h; path = CommonLib/DistantObject/GREYTestApplicationDistantObject.h; sourceTree = "<group>"; };
 		45D1FF17310D9E5490FC31327C383D37 /* GREYError+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYError+Private.h"; path = "CommonLib/Error/GREYError+Private.h"; sourceTree = "<group>"; };
 		45E66778139FA0E2560617E3702FD903 /* GREYTouchPathObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTouchPathObject.h; path = CommonLib/Event/GREYTouchPathObject.h; sourceTree = "<group>"; };
@@ -513,6 +516,7 @@
 		4AC5629BAB4D8BC9E3616871CCD20D76 /* GREYRemoteExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYRemoteExecutor.m; path = TestLib/Execution/GREYRemoteExecutor.m; sourceTree = "<group>"; };
 		4AEAB20EDBB75ACADCD3AF1911979CB7 /* GREYAssertions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAssertions.h; path = AppFramework/Assertion/GREYAssertions.h; sourceTree = "<group>"; };
 		4B2CAF141E6EFE45DD4EF497D21A4F95 /* GREYAssert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAssert.h; path = TestLib/Assertion/GREYAssert.h; sourceTree = "<group>"; };
+		4BCB2683DC991F743335189341F550E7 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C32B028A7D925C94487921F993A35C1 /* EDOHostPort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOHostPort.m; path = Channel/Sources/EDOHostPort.m; sourceTree = "<group>"; };
 		4CADD9B6A76F2F83953B4D8C7A2972F7 /* GREYInteractionDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYInteractionDataSource.h; path = AppFramework/Core/GREYInteractionDataSource.h; sourceTree = "<group>"; };
 		4CB083461CA93CCB05B8324F7FC78E1B /* GREYElementInteractionProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYElementInteractionProxy.m; path = TestLib/EarlGreyImpl/GREYElementInteractionProxy.m; sourceTree = "<group>"; };
@@ -525,7 +529,7 @@
 		4FF4C6D3227FA179F09BE3603218984B /* EDODeviceDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDODeviceDetector.h; path = Device/Sources/EDODeviceDetector.h; sourceTree = "<group>"; };
 		500F73C7ABA234417FDFEB27A1B04607 /* GREYErrorConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYErrorConstants.h; path = CommonLib/Error/GREYErrorConstants.h; sourceTree = "<group>"; };
 		50195CC4B01A999673427154E7FD7268 /* GREYObjcRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYObjcRuntime.h; path = CommonLib/GREYObjcRuntime.h; sourceTree = "<group>"; };
-		5136EA5D7DCF30D6F8C181FF60641D55 /* Pods-EthereumPriceMonitorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		50EC3EA4644CDA0112AFA2617C8F0FDE /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.modulemap"; sourceTree = "<group>"; };
 		5190BBF03C82BAAA5A792416DFE13C57 /* GREYDiagnosable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYDiagnosable.m; path = CommonLib/GREYDiagnosable.m; sourceTree = "<group>"; };
 		51B5FB7FFCC89DCDD13B1114C25A034E /* GREYTapAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTapAction.h; path = AppFramework/Action/GREYTapAction.h; sourceTree = "<group>"; };
 		5233435BA7DF6412107665D75C1F2C1E /* GREYIOHIDEventTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYIOHIDEventTypes.h; path = AppFramework/Event/GREYIOHIDEventTypes.h; sourceTree = "<group>"; };
@@ -535,20 +539,19 @@
 		5333BCED9FFBD545AB7FA7FDA9AB8326 /* GREYConfiguration+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYConfiguration+Private.h"; path = "CommonLib/Config/GREYConfiguration+Private.h"; sourceTree = "<group>"; };
 		53907EC619F6DC29C22D84F4D58602D6 /* EDOExecutorMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOExecutorMessage.m; path = Service/Sources/EDOExecutorMessage.m; sourceTree = "<group>"; };
 		53C646EC281DBC3A6A35A7FE642AEBFF /* EDOParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOParameter.h; path = Service/Sources/EDOParameter.h; sourceTree = "<group>"; };
-		54A8EE487CC6142EA3BE20DE2F8203E3 /* Pods-EthereumPriceMonitorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthereumPriceMonitorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		57F55BC5C0DB3BD456222212191E44C0 /* XCTestCase+GREYTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+GREYTest.h"; path = "TestLib/XCTestCase/XCTestCase+GREYTest.h"; sourceTree = "<group>"; };
 		585A1401D2B5A4520910796842ADD0E9 /* EDOValueType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOValueType.m; path = Service/Sources/EDOValueType.m; sourceTree = "<group>"; };
+		58E12904EF69452EA6B43168C4D65C32 /* Pods-EthereumPriceMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EthereumPriceMonitor.modulemap"; sourceTree = "<group>"; };
 		58E704DE2F3B9B40DF5F4F4D68CCBD4F /* GREYDiagnosable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDiagnosable.h; path = CommonLib/GREYDiagnosable.h; sourceTree = "<group>"; };
 		59128DE278776BD38F940653F0A5280C /* GREYDistantObjectUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDistantObjectUtils.h; path = CommonLib/DistantObject/GREYDistantObjectUtils.h; sourceTree = "<group>"; };
 		5A1C89672E0D075E27ADF6385ACDB24F /* GREYSyntheticEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYSyntheticEvents.h; path = AppFramework/Event/GREYSyntheticEvents.h; sourceTree = "<group>"; };
 		5A7F5975895CB2178E75329C9D9E8440 /* GREYElementInteractionErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYElementInteractionErrorHandler.h; path = TestLib/EarlGreyImpl/GREYElementInteractionErrorHandler.h; sourceTree = "<group>"; };
 		5BE0E5E42B0205944CC2E0A15AF36D3C /* EDOWeakObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOWeakObject.m; path = Service/Sources/EDOWeakObject.m; sourceTree = "<group>"; };
 		5CCE87603C5ED7A58D97C2483915BC0B /* EDOServicePort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOServicePort.h; path = Service/Sources/EDOServicePort.h; sourceTree = "<group>"; };
-		5CE2BF9E940693FB47D584565417BEA1 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5CFC013E3BA4943C85EB9FFBDBC7D267 /* GREYTestApplicationDistantObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYTestApplicationDistantObject.m; path = TestLib/DistantObject/GREYTestApplicationDistantObject.m; sourceTree = "<group>"; };
 		5D740AAD531285E31E39DF8874C4197F /* GREYRunLoopSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYRunLoopSpinner.h; path = AppFramework/Synchronization/GREYRunLoopSpinner.h; sourceTree = "<group>"; };
+		5DE4EF886BD8F4117C3E4D09459537B0 /* Pods-EthereumPriceMonitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E468555FEF05B0F9E020EFAF66750BA /* EDOServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOServiceRequest.m; path = Service/Sources/EDOServiceRequest.m; sourceTree = "<group>"; };
-		5EBD5861B0BF659A8988DA53860D393C /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h"; sourceTree = "<group>"; };
 		5F1F2E23BC542C8FACB432F4F9EF90C4 /* GREYDescribeVariable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYDescribeVariable.m; path = TestLib/Assertion/GREYDescribeVariable.m; sourceTree = "<group>"; };
 		5FF15122D1F138594084BF0D44036F3A /* EDOSocketChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOSocketChannel.h; path = Channel/Sources/EDOSocketChannel.h; sourceTree = "<group>"; };
 		5FF164B6E18416F85806E576CDA19594 /* eDistantObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = eDistantObject.release.xcconfig; sourceTree = "<group>"; };
@@ -557,7 +560,7 @@
 		61F1E349C9948138D8B954F02F5702B9 /* XCUIApplication+GREYTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCUIApplication+GREYTest.h"; path = "TestLib/EarlGreyImpl/XCUIApplication+GREYTest.h"; sourceTree = "<group>"; };
 		6265A39DAD1ECFE0691E893E28D7A2CF /* EDOChannelMultiplexer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOChannelMultiplexer.m; path = Channel/Sources/EDOChannelMultiplexer.m; sourceTree = "<group>"; };
 		62CCB97422563A774C46B6DD1665F801 /* GREYAssertionDefinesPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAssertionDefinesPrivate.h; path = CommonLib/Assertion/GREYAssertionDefinesPrivate.h; sourceTree = "<group>"; };
-		634B8B1D08E730F22EA7C85FAB38D140 /* Pods-EthereumPriceMonitorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitorTests-Info.plist"; sourceTree = "<group>"; };
+		641DF2BCA0D4167B18ADE27A327C1596 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m"; sourceTree = "<group>"; };
 		641F9746CEB3CE1FF36A1CC22A29C651 /* NSObject+EDOValueObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+EDOValueObject.h"; path = "Service/Sources/NSObject+EDOValueObject.h"; sourceTree = "<group>"; };
 		64A7B392A82DB230C461A8BC3DCBBE23 /* NSObject+EDOBlockedType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+EDOBlockedType.h"; path = "Service/Sources/NSObject+EDOBlockedType.h"; sourceTree = "<group>"; };
 		64EE8A7BB6CA6B266F7A5048573C68CD /* GREYScreenshotter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYScreenshotter.h; path = UILib/GREYScreenshotter.h; sourceTree = "<group>"; };
@@ -568,7 +571,6 @@
 		680236B36BDAC71DF796379D24982FCF /* GREYAppState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAppState.h; path = CommonLib/Config/GREYAppState.h; sourceTree = "<group>"; };
 		68F11F8E77FDE24692255AC783F82B93 /* GREYErrorFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYErrorFormatter.h; path = CommonLib/Error/GREYErrorFormatter.h; sourceTree = "<group>"; };
 		69BFF8EF4CDFA222E8CE6423F4F64E02 /* GREYTraversalBFS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTraversalBFS.h; path = UILib/Traversal/GREYTraversalBFS.h; sourceTree = "<group>"; };
-		6A470F7A33A3633F670725DEC1F88DA5 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A5C449BC7388F03102068E63D273BA0 /* GREYFailureHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYFailureHandler.h; path = CommonLib/Exceptions/GREYFailureHandler.h; sourceTree = "<group>"; };
 		6C54F1B6F732C4D48F9E4D235C12CBE1 /* GREYSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYSwizzler.h; path = CommonLib/GREYSwizzler.h; sourceTree = "<group>"; };
 		6CDFA0EBB9F417B809FB86D3EC1F1BAF /* EDOHostService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOHostService.m; path = Service/Sources/EDOHostService.m; sourceTree = "<group>"; };
@@ -582,22 +584,19 @@
 		72963A68AFFD2FFD1FCBF739DACB4886 /* GREYAssertionBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAssertionBlock.h; path = CommonLib/Assertion/GREYAssertionBlock.h; sourceTree = "<group>"; };
 		736BF0ACF4368D47772771301C2AAB86 /* eDistantObject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = eDistantObject.framework; path = eDistantObject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73892E24D914AD1A16ED6E16823313D7 /* GREYDistantObjectUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYDistantObjectUtils.m; path = CommonLib/DistantObject/GREYDistantObjectUtils.m; sourceTree = "<group>"; };
-		74675A697EE6268EB52C9041CD0F89CE /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		74F661B2DFB4BE01716176A9B9711466 /* GREYLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYLayoutConstraint.m; path = CommonLib/Matcher/GREYLayoutConstraint.m; sourceTree = "<group>"; };
 		760B68BE2F9C96EADF7BA794E52BCE6A /* UISwitch+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+GREYApp.h"; path = "AppFramework/Additions/UISwitch+GREYApp.h"; sourceTree = "<group>"; };
+		7716C52102EB3C6F979DAF030AF45C5B /* Pods-EthereumPriceMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthereumPriceMonitor-umbrella.h"; sourceTree = "<group>"; };
 		771D7925EA5513CD8D0F28774E151307 /* EDOMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOMessage.h; path = Service/Sources/EDOMessage.h; sourceTree = "<group>"; };
 		77CD0FB01AAD292B338D07FDB8957881 /* GREYFailureScreenshotSaver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYFailureScreenshotSaver.m; path = TestLib/Exception/GREYFailureScreenshotSaver.m; sourceTree = "<group>"; };
-		77EFA688A0BF618BEC142EACEB0180A4 /* Pods_EthereumPriceMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EthereumPriceMonitorTests.framework; path = "Pods-EthereumPriceMonitorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		796162966A404E0A5F7CEEBA19B712F0 /* GREYActionBlock+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYActionBlock+Private.h"; path = "AppFramework/Action/GREYActionBlock+Private.h"; sourceTree = "<group>"; };
 		79B8E33C80772746F61B969FACF5DF5B /* GREYAppleInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAppleInternals.h; path = CommonLib/GREYAppleInternals.h; sourceTree = "<group>"; };
 		79FCB5826C9442FB980AD7C8704F7000 /* EDODeviceConnector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDODeviceConnector.m; path = Device/Sources/EDODeviceConnector.m; sourceTree = "<group>"; };
-		7A08D16CCCD93FDB105D31D73B0A226C /* Pods-EthereumPriceMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthereumPriceMonitor-dummy.m"; sourceTree = "<group>"; };
 		7A72E91B7466F4967DFFE7B568401C32 /* GREYXCTestAppleInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYXCTestAppleInternals.h; path = TestLib/AppleInternals/GREYXCTestAppleInternals.h; sourceTree = "<group>"; };
 		7A8978E3E78E355787C8840120646183 /* NSKeyedUnarchiver+EDOAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedUnarchiver+EDOAdditions.m"; path = "Service/Sources/NSKeyedUnarchiver+EDOAdditions.m"; sourceTree = "<group>"; };
 		7AB4C7422D4C1973ED0544D51F538BDD /* EarlGreySwiftBridgingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EarlGreySwiftBridgingHeader.h; path = TestLib/Swift/EarlGreySwiftBridgingHeader.h; sourceTree = "<group>"; };
 		7B672AEA1CF2E841D67B02CF90C10B2F /* GREYCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYCondition.m; path = TestLib/Condition/GREYCondition.m; sourceTree = "<group>"; };
 		7C39AA1AD4A85413059911B485FD4A66 /* EarlGreyTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EarlGreyTest.modulemap; sourceTree = "<group>"; };
-		7D41B2C390CE9655ED47C9C715D9A15C /* Pods-EthereumPriceMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor.release.xcconfig"; sourceTree = "<group>"; };
 		7D8D56C87B04073240B2483E42353F72 /* NSObject+EDOValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+EDOValue.m"; path = "Service/Sources/NSObject+EDOValue.m"; sourceTree = "<group>"; };
 		7DAC0E453635A140211F2B69346FCF6F /* GREYActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYActions.h; path = AppFramework/Action/GREYActions.h; sourceTree = "<group>"; };
 		7E5D910792F360BA8A61A894B73A4295 /* GREYElementMatcherBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYElementMatcherBlock.h; path = CommonLib/Matcher/GREYElementMatcherBlock.h; sourceTree = "<group>"; };
@@ -608,29 +607,32 @@
 		80EC0688E0148646A512C901406ED337 /* NSObject+EDOParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+EDOParameter.m"; path = "Service/Sources/NSObject+EDOParameter.m"; sourceTree = "<group>"; };
 		8142463DF3729CF40D941600E4616DFF /* EDOTimingFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOTimingFunctions.h; path = Service/Sources/EDOTimingFunctions.h; sourceTree = "<group>"; };
 		81B4DA88402C7DF1A0B54983AE88F897 /* GREYVisibilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYVisibilityChecker.h; path = UILib/Visibility/GREYVisibilityChecker.h; sourceTree = "<group>"; };
-		825FA5F0668AA557D3727069AC5BE8CF /* Pods-EthereumPriceMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EthereumPriceMonitor.modulemap"; sourceTree = "<group>"; };
 		830CA3F243E7E8927702142CD1C98A3C /* GREYMatchersShorthand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYMatchersShorthand.m; path = AppFramework/Matcher/GREYMatchersShorthand.m; sourceTree = "<group>"; };
 		8334E23F6AE82E67954F6F78303BC2EE /* GREYStringDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYStringDescription.m; path = CommonLib/Matcher/GREYStringDescription.m; sourceTree = "<group>"; };
+		8473C14265ADF69F195651570A5F8B5C /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h"; sourceTree = "<group>"; };
 		85837E1FB2ACF7276F98E83344086EE1 /* EDOChannelPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOChannelPool.m; path = Channel/Sources/EDOChannelPool.m; sourceTree = "<group>"; };
 		861DD59041394851887846606471019C /* GREYInteraction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYInteraction.h; path = AppFramework/Core/GREYInteraction.h; sourceTree = "<group>"; };
-		862944D4DCAF2DCFEA7FD9E63C6AB967 /* Pods-EthereumPriceMonitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthereumPriceMonitor-frameworks.sh"; sourceTree = "<group>"; };
 		8750B2507B83EEA5BDCFE95C797CCF97 /* NSObject+EDOValueObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+EDOValueObject.m"; path = "Service/Sources/NSObject+EDOValueObject.m"; sourceTree = "<group>"; };
-		8769F3CEEA08D3E865004F2456334529 /* Pods-EthereumPriceMonitorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EthereumPriceMonitorTests.modulemap"; sourceTree = "<group>"; };
 		878FD9696BF52B2FF4F93CA8D0D86445 /* GREYStringDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYStringDescription.h; path = CommonLib/Matcher/GREYStringDescription.h; sourceTree = "<group>"; };
 		87D7E1F23878FF1E38DC4A1C5B223765 /* GREYSurrogateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYSurrogateDelegate.h; path = AppFramework/Delegate/GREYSurrogateDelegate.h; sourceTree = "<group>"; };
+		87E201F7D9145C3D8DF8E096638B33AA /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		881FBBB2C44B6AEC9C559A34328A0B26 /* GREYConfigKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYConfigKey.h; path = CommonLib/Config/GREYConfigKey.h; sourceTree = "<group>"; };
 		888DF659AF0CF935F25347ABF0D6E5B1 /* GREYError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYError.h; path = CommonLib/Error/GREYError.h; sourceTree = "<group>"; };
 		8AE1902278E3A7AFDD5315A694AACBE8 /* UIGestureRecognizer+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+GREYApp.h"; path = "AppFramework/Additions/UIGestureRecognizer+GREYApp.h"; sourceTree = "<group>"; };
 		8B10A6522D6901B9563D6688D223453D /* GREYCAAnimationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYCAAnimationDelegate.h; path = AppFramework/Delegate/GREYCAAnimationDelegate.h; sourceTree = "<group>"; };
+		8B96B5B82C1895A9FD6497742095FA59 /* Pods-EthereumPriceMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthereumPriceMonitor-dummy.m"; sourceTree = "<group>"; };
 		8CEC9BCDE6BFA27E2BF6D4E8B5AF598F /* GREYMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYMatcher.h; path = CommonLib/Matcher/GREYMatcher.h; sourceTree = "<group>"; };
+		8D2C5BFB4A4620D3F8A975A82F91C1D0 /* Pods-EthereumPriceMonitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthereumPriceMonitor-frameworks.sh"; sourceTree = "<group>"; };
 		8D588D0712A0CDF18F792B88A3049348 /* EDOExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOExecutor.h; path = Service/Sources/EDOExecutor.h; sourceTree = "<group>"; };
 		8ECAFDF381A5FF5A44545E46222561BD /* GREYFailureScreenshotter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYFailureScreenshotter.h; path = AppFramework/Error/GREYFailureScreenshotter.h; sourceTree = "<group>"; };
+		8F174B6EF0DFBA0D6BFE794492462689 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-Info.plist"; sourceTree = "<group>"; };
 		8F1CB6D1EB00E0968DDAF5CF4BBDD54D /* NSError+GREYCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+GREYCommon.m"; path = "CommonLib/Error/NSError+GREYCommon.m"; sourceTree = "<group>"; };
 		908C363869678B38A9C9AB6017BB8DE5 /* GREYOperationQueueIdlingResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYOperationQueueIdlingResource.h; path = AppFramework/IdlingResources/GREYOperationQueueIdlingResource.h; sourceTree = "<group>"; };
 		916D5F18281E228C8F84D3CF76E66C67 /* NSObject+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+GREYApp.h"; path = "AppFramework/Additions/NSObject+GREYApp.h"; sourceTree = "<group>"; };
 		929372CE8521C26E545D97DB6EFEC2A0 /* UIScrollView+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+GREYApp.h"; path = "AppFramework/Additions/UIScrollView+GREYApp.h"; sourceTree = "<group>"; };
 		92B2FEFE063D9DDFE3ED09A401E8722E /* EarlGreyImpl+XCUIApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EarlGreyImpl+XCUIApplication.h"; path = "TestLib/EarlGreyImpl/EarlGreyImpl+XCUIApplication.h"; sourceTree = "<group>"; };
 		937CC11C91CB2930E63BE919780CB36E /* EDODeallocationTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDODeallocationTracker.m; path = Service/Sources/EDODeallocationTracker.m; sourceTree = "<group>"; };
+		9388F75EB7932A54C0A9A27830620660 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A5EC89A3F058207880EBE836DB6781 /* GREYDefaultFailureHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYDefaultFailureHandler.m; path = TestLib/Exception/GREYDefaultFailureHandler.m; sourceTree = "<group>"; };
 		93E815BC1B06243FD51DCD20C09E54C8 /* EDOObjectMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOObjectMessage.h; path = Service/Sources/EDOObjectMessage.h; sourceTree = "<group>"; };
 		958F40E75F8B523526D6139047C6953C /* GREYTestApplicationDistantObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYTestApplicationDistantObject+Private.h"; path = "CommonLib/DistantObject/GREYTestApplicationDistantObject+Private.h"; sourceTree = "<group>"; };
@@ -642,8 +644,6 @@
 		983FAA70296EF679469D938066DFD056 /* EDOTimingFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOTimingFunctions.m; path = Service/Sources/EDOTimingFunctions.m; sourceTree = "<group>"; };
 		99683CBA18514C89FB3B0DC993B7EBEF /* EarlGreyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EarlGreyTest.release.xcconfig; sourceTree = "<group>"; };
 		998A005110D7D4B3889AE6E62DBE6D68 /* NSObject+EDOValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+EDOValue.h"; path = "Service/Sources/NSObject+EDOValue.h"; sourceTree = "<group>"; };
-		99A45A45D81420349CD10DD2452B7CBF /* Pods-EthereumPriceMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BC02A198CB89773854DFE429EDC4AFD /* Pods-EthereumPriceMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EthereumPriceMonitor-umbrella.h"; sourceTree = "<group>"; };
 		9C4DC3A6ACBBCCA58BB9680EF0101B4D /* EDONumericMeasure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDONumericMeasure.m; path = Measure/Sources/EDONumericMeasure.m; sourceTree = "<group>"; };
 		9CD2B61DD34D1A5F1E2243712F272812 /* GREYAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAction.h; path = AppFramework/Action/GREYAction.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -657,21 +657,20 @@
 		A4C0AEBC9E366959D4869FACCF8C1245 /* EarlGreyTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EarlGreyTest-umbrella.h"; sourceTree = "<group>"; };
 		A50FAB0058ADF3870E5F69397C70A423 /* EDOWeakObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOWeakObject.h; path = Service/Sources/EDOWeakObject.h; sourceTree = "<group>"; };
 		A62000868C36E96035F7BFE936EBEDCC /* EDOUSBMuxUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOUSBMuxUtil.h; path = Device/Sources/EDOUSBMuxUtil.h; sourceTree = "<group>"; };
-		A668B87E3A92E6AB201E66BA2CBFA372 /* Pods-EthereumPriceMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor.debug.xcconfig"; sourceTree = "<group>"; };
 		A7657F32F1CF8F016D94F799A08BB0B3 /* AppFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppFramework.framework; path = EarlGreyApp/AppFramework.framework; sourceTree = "<group>"; };
 		A9153A6FBA07ABD136FBCAA5A6C6BC27 /* NSRunLoop+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRunLoop+GREYApp.h"; path = "AppFramework/Additions/NSRunLoop+GREYApp.h"; sourceTree = "<group>"; };
 		A99C580F1AE6FF754C12BFC9627A3A39 /* GREYHostBackgroundDistantObject+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GREYHostBackgroundDistantObject+GREYApp.h"; path = "AppFramework/DistantObject/GREYHostBackgroundDistantObject+GREYApp.h"; sourceTree = "<group>"; };
 		A9A9F255322A87093E25E0C8A77F1BBE /* NSURLSession+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+GREYApp.h"; path = "AppFramework/Additions/NSURLSession+GREYApp.h"; sourceTree = "<group>"; };
 		AA093736A1365C70E852AB0AA950E089 /* CALayer+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+GREYApp.h"; path = "AppFramework/Additions/CALayer+GREYApp.h"; sourceTree = "<group>"; };
+		AAE2C7AFBE7CCB5ADE40673D376574BC /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-dummy.m"; sourceTree = "<group>"; };
 		AC675EB414ECB8EEC804A6F074B69E67 /* EarlGreyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EarlGreyTest.framework; path = EarlGreyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3338A11C40587A652C1897F51B4CF0 /* UIApplication+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+GREYApp.h"; path = "AppFramework/Additions/UIApplication+GREYApp.h"; sourceTree = "<group>"; };
 		AE3B92AB11F1176E55536670F4571B60 /* EarlGreyTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EarlGreyTest-Info.plist"; sourceTree = "<group>"; };
-		AFA09731347858477E3EB5E51BA80D69 /* Pods-EthereumPriceMonitorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthereumPriceMonitorTests-dummy.m"; sourceTree = "<group>"; };
 		AFA548C99A921764A1D7B4866B09DFF7 /* UIView+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GREYApp.h"; path = "AppFramework/Additions/UIView+GREYApp.h"; sourceTree = "<group>"; };
 		B033BDC6768A3FA8801A48D7B898A3B0 /* GREYTestCaseInvocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTestCaseInvocation.h; path = TestLib/XCTestCase/GREYTestCaseInvocation.h; sourceTree = "<group>"; };
 		B04337166D06771F6DCB9AEC89DC21BA /* eDistantObject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = eDistantObject.modulemap; sourceTree = "<group>"; };
+		B16FFF174D83599738581BD91FC4724B /* Pods-EthereumPriceMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor.release.xcconfig"; sourceTree = "<group>"; };
 		B43DBA93569FBC0E775F982184FEF8DD /* EDOBlockingQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOBlockingQueue.h; path = Channel/Sources/EDOBlockingQueue.h; sourceTree = "<group>"; };
-		B46750B2303DB82A1E12042AAFEF7237 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m"; sourceTree = "<group>"; };
 		B4D6E867A1355389633B1D8878E2F437 /* GREYUIWindowProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYUIWindowProvider.h; path = UILib/Provider/GREYUIWindowProvider.h; sourceTree = "<group>"; };
 		B5DD7C87CF31D4EE338C3E332A92C6B5 /* EDOMethodSignatureMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOMethodSignatureMessage.h; path = Service/Sources/EDOMethodSignatureMessage.h; sourceTree = "<group>"; };
 		B64E8439DF7E8F8B404AE4F47D20EC16 /* GREYFailureHandlerHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYFailureHandlerHelpers.h; path = TestLib/Exception/GREYFailureHandlerHelpers.h; sourceTree = "<group>"; };
@@ -689,12 +688,12 @@
 		BE26A708EB72610678B99F68DFBB90BA /* EDOSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOSocket.m; path = Channel/Sources/EDOSocket.m; sourceTree = "<group>"; };
 		BEAFA980199A9D1DAAA245157E6A26DE /* EDOValueObject+EDOParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EDOValueObject+EDOParameter.m"; path = "Service/Sources/EDOValueObject+EDOParameter.m"; sourceTree = "<group>"; };
 		BF1F9011D26CCAC00D5FCD1D3C4DFEF9 /* GREYFrameworkException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYFrameworkException.m; path = CommonLib/Exceptions/GREYFrameworkException.m; sourceTree = "<group>"; };
+		BFAAB4A8D4EB30371A1A498162F80B3E /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C01F060F5611BDF8097A44A8B5B85077 /* EDOBlockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOBlockObject.h; path = Service/Sources/EDOBlockObject.h; sourceTree = "<group>"; };
 		C0266BD0EA185E5D7FFB8DC862B52821 /* EDOClassMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOClassMessage.h; path = Service/Sources/EDOClassMessage.h; sourceTree = "<group>"; };
 		C036D2F7B2C9B3118D7443D0FF5BBB47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C081925CAAD5D988D8580EEE495C7A8B /* EDOHostService+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EDOHostService+Private.h"; path = "Service/Sources/EDOHostService+Private.h"; sourceTree = "<group>"; };
 		C1C45ACF66B7E208FD9EF5B45F7D546A /* UITextSelectionView+GREYApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextSelectionView+GREYApp.h"; path = "AppFramework/Additions/UITextSelectionView+GREYApp.h"; sourceTree = "<group>"; };
-		C1E356D3578BEBBA04F383A69DBF5240 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-frameworks.sh"; sourceTree = "<group>"; };
 		C1E4A77CB30776033B65FF6D793EA65F /* GREYElementHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYElementHierarchy.h; path = UILib/GREYElementHierarchy.h; sourceTree = "<group>"; };
 		C284CDD15B76BD05D1FF087224DFFA76 /* EDOInvocationMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOInvocationMessage.m; path = Service/Sources/EDOInvocationMessage.m; sourceTree = "<group>"; };
 		C2A6F12AA8070CD41DA500198DEDECE2 /* GREYUIThreadExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYUIThreadExecutor.h; path = AppFramework/Synchronization/GREYUIThreadExecutor.h; sourceTree = "<group>"; };
@@ -711,7 +710,7 @@
 		CBB0CBBF164945069D56D3DEA5EBBEC4 /* EDOSocketPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOSocketPort.h; path = Channel/Sources/EDOSocketPort.h; sourceTree = "<group>"; };
 		CBB60D691A8F6EBC0AD27915602CBA31 /* EDOBlockingQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOBlockingQueue.m; path = Channel/Sources/EDOBlockingQueue.m; sourceTree = "<group>"; };
 		CCA8AD09ADCCE9DB9F93A4A9A3800ACC /* EDOObjectMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOObjectMessage.m; path = Service/Sources/EDOObjectMessage.m; sourceTree = "<group>"; };
-		CD6186D3AC9552184B1DE32FFD1DA219 /* Pods-EthereumPriceMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		CED5848093F5237CEB43468B653176AB /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap"; sourceTree = "<group>"; };
 		CF493048087C37C1E3699990D1F93C56 /* EDORemoteException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDORemoteException.h; path = Service/Sources/EDORemoteException.h; sourceTree = "<group>"; };
 		D010F21B2EB6190F9F5A4D9EE9162641 /* NSKeyedArchiver+EDOAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSKeyedArchiver+EDOAdditions.h"; path = "Service/Sources/NSKeyedArchiver+EDOAdditions.h"; sourceTree = "<group>"; };
 		D21F3B3BF014C87CEB1BBEDD4E42CBB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -734,7 +733,6 @@
 		DC48A93941557B35CFB47851B75BCE63 /* GREYConfigKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYConfigKey.m; path = CommonLib/Config/GREYConfigKey.m; sourceTree = "<group>"; };
 		DD17A57212680EFA298B4D7BF470A1BA /* GREYWaitFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYWaitFunctions.h; path = TestLib/Assertion/GREYWaitFunctions.h; sourceTree = "<group>"; };
 		DD597F3F2AFF4D1882595EED295BD4C5 /* NSKeyedArchiver+EDOAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedArchiver+EDOAdditions.m"; path = "Service/Sources/NSKeyedArchiver+EDOAdditions.m"; sourceTree = "<group>"; };
-		DDBC81F4D7DB2C9B7F5AA3DEAC635B5A /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist"; sourceTree = "<group>"; };
 		DDD8243691DF0E255970272B963F1EC9 /* GREYAnyOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAnyOf.h; path = AppFramework/Matcher/GREYAnyOf.h; sourceTree = "<group>"; };
 		DF64613B0A8BBDD4C0C89DAB9FA9BA5D /* GREYAssertionDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAssertionDefines.h; path = TestLib/Assertion/GREYAssertionDefines.h; sourceTree = "<group>"; };
 		DF6917FF355F7A4E0A5BCFD4DC80D4A8 /* GREYConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYConstants.h; path = CommonLib/GREYConstants.h; sourceTree = "<group>"; };
@@ -743,6 +741,7 @@
 		E0DBFF09195EBACDDCA74D213FA4EA81 /* EDOMethodSignatureMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOMethodSignatureMessage.m; path = Service/Sources/EDOMethodSignatureMessage.m; sourceTree = "<group>"; };
 		E334D04C9A52B4B68B10D05D49814253 /* EDOChannelErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOChannelErrors.h; path = Channel/Sources/EDOChannelErrors.h; sourceTree = "<group>"; };
 		E356FAED0C859AC1B701F506522B5EB4 /* GREYTraversalObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTraversalObject.h; path = UILib/Traversal/GREYTraversalObject.h; sourceTree = "<group>"; };
+		E3F70929566A4992C5A8E777BCB3A268 /* Pods-EthereumPriceMonitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthereumPriceMonitor-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E421BABC821DED9B365DC4A57557E9E3 /* EDOServiceException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOServiceException.m; path = Service/Sources/EDOServiceException.m; sourceTree = "<group>"; };
 		E42628FB000A1518FF959F3AB91E121F /* EDOChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOChannel.h; path = Channel/Sources/EDOChannel.h; sourceTree = "<group>"; };
 		E4DEBECF077E42D891C348A730AD5A6F /* EDOHostService+Handlers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EDOHostService+Handlers.h"; path = "Service/Sources/EDOHostService+Handlers.h"; sourceTree = "<group>"; };
@@ -751,9 +750,11 @@
 		E848EE1EE698A888AA74DD5EA735CB8C /* eDistantObject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "eDistantObject-umbrella.h"; sourceTree = "<group>"; };
 		E91DB707E980095490F6EFBA22A6263C /* GREYScrollToContentEdgeAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYScrollToContentEdgeAction.h; path = AppFramework/Action/GREYScrollToContentEdgeAction.h; sourceTree = "<group>"; };
 		E99A1CE632CFC1DCC209FAF318690EB3 /* GREYAppState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYAppState.m; path = CommonLib/Config/GREYAppState.m; sourceTree = "<group>"; };
+		E9AFC924A5660D6AEBAE975BA1823FC2 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist"; sourceTree = "<group>"; };
 		EA2211441546E3DB60AC8580A1E80D7E /* EDOValueObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOValueObject.m; path = Service/Sources/EDOValueObject.m; sourceTree = "<group>"; };
 		EA827B839B72F772679D19F750599EC4 /* EDOObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOObject.m; path = Service/Sources/EDOObject.m; sourceTree = "<group>"; };
 		EA9CEA29E4A6C65BD4FFADBDCC66C978 /* GREYDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDefines.h; path = CommonLib/GREYDefines.h; sourceTree = "<group>"; };
+		EB0CBBE0F7E7E04D97480C29AA15FD48 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-frameworks.sh"; sourceTree = "<group>"; };
 		EC9B03C830F85E90538F95137A11770F /* GREYStopwatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYStopwatch.m; path = CommonLib/GREYStopwatch.m; sourceTree = "<group>"; };
 		ECA409F9F2AC88D578F7ABC448216F96 /* EarlGreyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EarlGreyApp.debug.xcconfig; sourceTree = "<group>"; };
 		ED70242616D16C79C9D7DF787B38148F /* GREYAssert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYAssert.m; path = TestLib/Assertion/GREYAssert.m; sourceTree = "<group>"; };
@@ -761,6 +762,7 @@
 		EE3A55C8A53C2982FEDF108EBE4E9CE9 /* EDODeallocationTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDODeallocationTracker.h; path = Service/Sources/EDODeallocationTracker.h; sourceTree = "<group>"; };
 		EF0C07F016280E7435C20A3B556943DD /* Pods_EthereumPriceMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EthereumPriceMonitor.framework; path = "Pods-EthereumPriceMonitor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD25D7754237E82F174BDD3EF7F01B9 /* GREYDataEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDataEnumerator.h; path = UILib/Provider/GREYDataEnumerator.h; sourceTree = "<group>"; };
+		EFEE7C6A6D5EEA8CF05F56F7C55F8151 /* Pods-EthereumPriceMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor.debug.xcconfig"; sourceTree = "<group>"; };
 		F02DCC62FB628939E92C740FC20077D8 /* GREYAppError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYAppError.h; path = AppFramework/Error/GREYAppError.h; sourceTree = "<group>"; };
 		F03716758047875503778BB168F2E3FE /* EDOChannelUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EDOChannelUtil.h; path = Channel/Sources/EDOChannelUtil.h; sourceTree = "<group>"; };
 		F0F7859E539EF725CD50EE99536BE4F0 /* GREYWaitFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYWaitFunctions.m; path = TestLib/Assertion/GREYWaitFunctions.m; sourceTree = "<group>"; };
@@ -771,9 +773,8 @@
 		F3F45FE71455BC0E6BC28E709CEC93A6 /* GREYValueType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GREYValueType.m; path = CommonLib/DistantObject/GREYValueType.m; sourceTree = "<group>"; };
 		F4AF42EF0E60FB2AB931325BA438EB09 /* EDOClientService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EDOClientService.m; path = Service/Sources/EDOClientService.m; sourceTree = "<group>"; };
 		F540526066B83FE3490E455A75E929D8 /* GREYTouchInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYTouchInfo.h; path = CommonLib/Event/GREYTouchInfo.h; sourceTree = "<group>"; };
-		F6F0BFB327DABD2B5ACDA1542940E792 /* Pods-EthereumPriceMonitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EthereumPriceMonitor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F68FCE9192443D9C0DDD7D9E89C6B9A9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F92872AE07ED71B2AA59ABB6E8A8200F /* GREYDispatchQueueTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDispatchQueueTracker.h; path = AppFramework/Synchronization/GREYDispatchQueueTracker.h; sourceTree = "<group>"; };
-		F97BF636EBAEB79AD6E2BD8F4EB4D775 /* Pods-EthereumPriceMonitor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EthereumPriceMonitor-Info.plist"; sourceTree = "<group>"; };
 		FA0BED235F9FEAA64AA4A950DBB51AA4 /* GREYQuickVisibilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYQuickVisibilityChecker.h; path = UILib/Visibility/GREYQuickVisibilityChecker.h; sourceTree = "<group>"; };
 		FA8B0729761FB48151ED70369C584B21 /* GREYDefaultFailureHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYDefaultFailureHandler.h; path = TestLib/Exception/GREYDefaultFailureHandler.h; sourceTree = "<group>"; };
 		FA914E97976A05C4A5456D5F4BEC2238 /* GREYNSURLConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GREYNSURLConnectionDelegate.h; path = AppFramework/Delegate/GREYNSURLConnectionDelegate.h; sourceTree = "<group>"; };
@@ -805,11 +806,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77066A2A4744B506DE99C5EC53EE928F /* Frameworks */ = {
+		3EF3E66E4959B9909954ADD03BABCB04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DADBD54FF9977B0172F76A655AD85F /* Foundation.framework in Frameworks */,
+				8263FF09F31EDDC234A8D5C2E4952A1B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -834,6 +835,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EEA133643C0F417D44ABC2FCECB5C04 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED5848093F5237CEB43468B653176AB /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap */,
+				178B957C583240D1F9E5F5DFC015E9FC /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.markdown */,
+				1BD34E7F287B2E85BAC4347BD33943B2 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.plist */,
+				641DF2BCA0D4167B18ADE27A327C1596 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m */,
+				EB0CBBE0F7E7E04D97480C29AA15FD48 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-frameworks.sh */,
+				E9AFC924A5660D6AEBAE975BA1823FC2 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist */,
+				8473C14265ADF69F195651570A5F8B5C /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h */,
+				87E201F7D9145C3D8DF8E096638B33AA /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig */,
+				BFAAB4A8D4EB30371A1A498162F80B3E /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */,
+			);
+			name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests";
+			path = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests";
+			sourceTree = "<group>";
+		};
 		1884B00F3B15901138CB09FCCBA02375 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -874,43 +892,38 @@
 			path = "../Target Support Files/EarlGreyApp";
 			sourceTree = "<group>";
 		};
-		2732A5FF0BE3F98D181DC5AD73C3404F /* Targets Support Files */ = {
+		6BD3EE38FD7848DA1001409B0C6856A4 /* Pods-EthereumPriceMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				C77603754F6C40258347C174AB148F58 /* Pods-EthereumPriceMonitor */,
-				494F4E8BFBF5D4AB70C59F6AAEEB5DEF /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests */,
-				C51C6459677F6EAFCEBF4C767E047D95 /* Pods-EthereumPriceMonitorTests */,
+				58E12904EF69452EA6B43168C4D65C32 /* Pods-EthereumPriceMonitor.modulemap */,
+				E3F70929566A4992C5A8E777BCB3A268 /* Pods-EthereumPriceMonitor-acknowledgements.markdown */,
+				5DE4EF886BD8F4117C3E4D09459537B0 /* Pods-EthereumPriceMonitor-acknowledgements.plist */,
+				8B96B5B82C1895A9FD6497742095FA59 /* Pods-EthereumPriceMonitor-dummy.m */,
+				8D2C5BFB4A4620D3F8A975A82F91C1D0 /* Pods-EthereumPriceMonitor-frameworks.sh */,
+				16C4307C5885413F5A5A32BF63C3AC90 /* Pods-EthereumPriceMonitor-Info.plist */,
+				7716C52102EB3C6F979DAF030AF45C5B /* Pods-EthereumPriceMonitor-umbrella.h */,
+				EFEE7C6A6D5EEA8CF05F56F7C55F8151 /* Pods-EthereumPriceMonitor.debug.xcconfig */,
+				B16FFF174D83599738581BD91FC4724B /* Pods-EthereumPriceMonitor.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-EthereumPriceMonitor";
+			path = "Target Support Files/Pods-EthereumPriceMonitor";
 			sourceTree = "<group>";
 		};
-		494F4E8BFBF5D4AB70C59F6AAEEB5DEF /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests */ = {
+		7332E64A7CBBC6153F106B8222C1C3F6 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests */ = {
 			isa = PBXGroup;
 			children = (
-				375FE84D49AA15C8559CA156AE8912C0 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap */,
-				74675A697EE6268EB52C9041CD0F89CE /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.markdown */,
-				6A470F7A33A3633F670725DEC1F88DA5 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-acknowledgements.plist */,
-				B46750B2303DB82A1E12042AAFEF7237 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m */,
-				C1E356D3578BEBBA04F383A69DBF5240 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-frameworks.sh */,
-				DDBC81F4D7DB2C9B7F5AA3DEAC635B5A /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist */,
-				5EBD5861B0BF659A8988DA53860D393C /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-umbrella.h */,
-				22D008006AA3A34D25F6DF7053F24B31 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig */,
-				5CE2BF9E940693FB47D584565417BEA1 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */,
+				50EC3EA4644CDA0112AFA2617C8F0FDE /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.modulemap */,
+				4BCB2683DC991F743335189341F550E7 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-acknowledgements.markdown */,
+				452C0AC0DE33B265C943ABFE1E9D7AF5 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-acknowledgements.plist */,
+				AAE2C7AFBE7CCB5ADE40673D376574BC /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-dummy.m */,
+				35A171EAF7E618059DE5EC057CABED13 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-frameworks.sh */,
+				8F174B6EF0DFBA0D6BFE794492462689 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-Info.plist */,
+				3600F8C9558793B35A260CB066DE7BD9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-umbrella.h */,
+				F68FCE9192443D9C0DDD7D9E89C6B9A9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig */,
+				1CBD60C580B8DB2ED1A9AE6C965FC8E0 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig */,
 			);
-			name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests";
-			path = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests";
-			sourceTree = "<group>";
-		};
-		55DFE47503A303D7120C8B58526CE576 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AC675EB414ECB8EEC804A6F074B69E67 /* EarlGreyTest.framework */,
-				736BF0ACF4368D47772771301C2AAB86 /* eDistantObject.framework */,
-				EF0C07F016280E7435C20A3B556943DD /* Pods_EthereumPriceMonitor.framework */,
-				226FA145632ADD63F7ED2D05BCC110A4 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */,
-				77EFA688A0BF618BEC142EACEB0180A4 /* Pods_EthereumPriceMonitorTests.framework */,
-			);
-			name = Products;
+			name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests";
+			path = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests";
 			sourceTree = "<group>";
 		};
 		7D7BBD90006B40ADAF3B4F9F0F16AC54 /* EarlGreyTest */ = {
@@ -1143,6 +1156,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AADE3808B9D4626D0E481C2DF4E5CA5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3EE38FD7848DA1001409B0C6856A4 /* Pods-EthereumPriceMonitor */,
+				7332E64A7CBBC6153F106B8222C1C3F6 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests */,
+				0EEA133643C0F417D44ABC2FCECB5C04 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		B4DA7A8DEE9F6076BF276AEBD54B0984 /* eDistantObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -1274,22 +1297,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C51C6459677F6EAFCEBF4C767E047D95 /* Pods-EthereumPriceMonitorTests */ = {
-			isa = PBXGroup;
-			children = (
-				8769F3CEEA08D3E865004F2456334529 /* Pods-EthereumPriceMonitorTests.modulemap */,
-				54A8EE487CC6142EA3BE20DE2F8203E3 /* Pods-EthereumPriceMonitorTests-acknowledgements.markdown */,
-				5136EA5D7DCF30D6F8C181FF60641D55 /* Pods-EthereumPriceMonitorTests-acknowledgements.plist */,
-				AFA09731347858477E3EB5E51BA80D69 /* Pods-EthereumPriceMonitorTests-dummy.m */,
-				634B8B1D08E730F22EA7C85FAB38D140 /* Pods-EthereumPriceMonitorTests-Info.plist */,
-				441395AB61B3E14E306474E9FEA77084 /* Pods-EthereumPriceMonitorTests-umbrella.h */,
-				99A45A45D81420349CD10DD2452B7CBF /* Pods-EthereumPriceMonitorTests.debug.xcconfig */,
-				CD6186D3AC9552184B1DE32FFD1DA219 /* Pods-EthereumPriceMonitorTests.release.xcconfig */,
-			);
-			name = "Pods-EthereumPriceMonitorTests";
-			path = "Target Support Files/Pods-EthereumPriceMonitorTests";
-			sourceTree = "<group>";
-		};
 		C5EB111DBF4585181C641337F5C80556 /* EarlGreyApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -1300,21 +1307,16 @@
 			path = EarlGreyApp;
 			sourceTree = "<group>";
 		};
-		C77603754F6C40258347C174AB148F58 /* Pods-EthereumPriceMonitor */ = {
+		CBEE587B424BA12E1070C5E039686768 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				825FA5F0668AA557D3727069AC5BE8CF /* Pods-EthereumPriceMonitor.modulemap */,
-				F6F0BFB327DABD2B5ACDA1542940E792 /* Pods-EthereumPriceMonitor-acknowledgements.markdown */,
-				39FFCE8B61B3169CCE05DF363787113E /* Pods-EthereumPriceMonitor-acknowledgements.plist */,
-				7A08D16CCCD93FDB105D31D73B0A226C /* Pods-EthereumPriceMonitor-dummy.m */,
-				862944D4DCAF2DCFEA7FD9E63C6AB967 /* Pods-EthereumPriceMonitor-frameworks.sh */,
-				F97BF636EBAEB79AD6E2BD8F4EB4D775 /* Pods-EthereumPriceMonitor-Info.plist */,
-				9BC02A198CB89773854DFE429EDC4AFD /* Pods-EthereumPriceMonitor-umbrella.h */,
-				A668B87E3A92E6AB201E66BA2CBFA372 /* Pods-EthereumPriceMonitor.debug.xcconfig */,
-				7D41B2C390CE9655ED47C9C715D9A15C /* Pods-EthereumPriceMonitor.release.xcconfig */,
+				AC675EB414ECB8EEC804A6F074B69E67 /* EarlGreyTest.framework */,
+				736BF0ACF4368D47772771301C2AAB86 /* eDistantObject.framework */,
+				EF0C07F016280E7435C20A3B556943DD /* Pods_EthereumPriceMonitor.framework */,
+				9388F75EB7932A54C0A9A27830620660 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework */,
+				226FA145632ADD63F7ED2D05BCC110A4 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */,
 			);
-			name = "Pods-EthereumPriceMonitor";
-			path = "Target Support Files/Pods-EthereumPriceMonitor";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1323,8 +1325,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D627D596AE30C8DD00CBEC830051ED5A /* Frameworks */,
 				8615A425DC13BD4734BDFA48BD836A39 /* Pods */,
-				55DFE47503A303D7120C8B58526CE576 /* Products */,
-				2732A5FF0BE3F98D181DC5AD73C3404F /* Targets Support Files */,
+				CBEE587B424BA12E1070C5E039686768 /* Products */,
+				AADE3808B9D4626D0E481C2DF4E5CA5F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1422,11 +1424,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		994565259B4CD807B2F6351D0EB8B92E /* Headers */ = {
+		8503918B46488F5B6EA0FE3539DC7558 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37675CFFCC6CD7A66A027087609849C0 /* Pods-EthereumPriceMonitorTests-umbrella.h in Headers */,
+				1669768AFD217AA7C63BC37B776A5442 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1648,6 +1650,25 @@
 			productReference = AC675EB414ECB8EEC804A6F074B69E67 /* EarlGreyTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		5AA16D0619A8579AB5A77ABC483468F8 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E805B650C19338C90FCED0E5D5948C /* Build configuration list for PBXNativeTarget "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests" */;
+			buildPhases = (
+				8503918B46488F5B6EA0FE3539DC7558 /* Headers */,
+				28EEDD5F4F225FD5517DC3B677A075F3 /* Sources */,
+				3EF3E66E4959B9909954ADD03BABCB04 /* Frameworks */,
+				5A139F9D9B03E0FE58A447977D0994ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A7EB5A6A89F35E8E122A968A2CE230 /* PBXTargetDependency */,
+			);
+			name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests";
+			productName = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests";
+			productReference = 9388F75EB7932A54C0A9A27830620660 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5FDEEE4CB65D69CAC0C55A1DA021A929 /* eDistantObject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA462B83E9AE0779DA694BADC864F899 /* Build configuration list for PBXNativeTarget "eDistantObject" */;
@@ -1687,25 +1708,6 @@
 			productReference = 226FA145632ADD63F7ED2D05BCC110A4 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B5DE7D5FB9DA3DA20CA2E0D54870C22F /* Pods-EthereumPriceMonitorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CBEB563C3C18E4C886D1EBC70043517B /* Build configuration list for PBXNativeTarget "Pods-EthereumPriceMonitorTests" */;
-			buildPhases = (
-				994565259B4CD807B2F6351D0EB8B92E /* Headers */,
-				A4A0420F6C8A8624EB4A72E326BEBED3 /* Sources */,
-				77066A2A4744B506DE99C5EC53EE928F /* Frameworks */,
-				853C87E1001BD9C766131007AE2A2AA4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0208A3316C959028B93EAA3482EDF86 /* PBXTargetDependency */,
-			);
-			name = "Pods-EthereumPriceMonitorTests";
-			productName = "Pods-EthereumPriceMonitorTests";
-			productReference = 77EFA688A0BF618BEC142EACEB0180A4 /* Pods_EthereumPriceMonitorTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1724,7 +1726,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 55DFE47503A303D7120C8B58526CE576 /* Products */;
+			productRefGroup = CBEE587B424BA12E1070C5E039686768 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1732,8 +1734,8 @@
 				22E7E1DCAAE19EA06F7BB51901F4E4E5 /* EarlGreyTest */,
 				5FDEEE4CB65D69CAC0C55A1DA021A929 /* eDistantObject */,
 				160154909F5A5923DFA406EB24221ADE /* Pods-EthereumPriceMonitor */,
+				5AA16D0619A8579AB5A77ABC483468F8 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests */,
 				B0E14B2F2B4B8AD005DB01645BD3441B /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests */,
-				B5DE7D5FB9DA3DA20CA2E0D54870C22F /* Pods-EthereumPriceMonitorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1753,14 +1755,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		656C48B243293954DD8F8E75BD128F82 /* Resources */ = {
+		5A139F9D9B03E0FE58A447977D0994ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		853C87E1001BD9C766131007AE2A2AA4 /* Resources */ = {
+		656C48B243293954DD8F8E75BD128F82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1782,6 +1784,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60A1C19E319F8AF1DF8EEA80537F3C8 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28EEDD5F4F225FD5517DC3B677A075F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C0EA6C28EDEE2DAFEB867AF261E59F /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1908,14 +1918,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4A0420F6C8A8624EB4A72E326BEBED3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1010AF13C829BE9066224216CBC0472F /* Pods-EthereumPriceMonitorTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E7A2F604E8F9CDDCDA77F2643788E6E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1927,6 +1929,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		80A7EB5A6A89F35E8E122A968A2CE230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EarlGreyApp;
+			target = 3B9ABDD8D0C5582FC09597CD05782E8A /* EarlGreyApp */;
+			targetProxy = 8F95C5D266F151063209DEFCBC5869D1 /* PBXContainerItemProxy */;
+		};
 		A955DC5D80CE03B22D5784BCB58AF1D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = eDistantObject;
@@ -1957,279 +1965,10 @@
 			target = 3B9ABDD8D0C5582FC09597CD05782E8A /* EarlGreyApp */;
 			targetProxy = A1F8500F76F47778F5E5EA0174E6F7D7 /* PBXContainerItemProxy */;
 		};
-		F0208A3316C959028B93EAA3482EDF86 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-EthereumPriceMonitor";
-			target = 160154909F5A5923DFA406EB24221ADE /* Pods-EthereumPriceMonitor */;
-			targetProxy = 104DFC4C66996921179B1D28AF7CADD9 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11325A62F252C2263D2793D8A6B1F0F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A668B87E3A92E6AB201E66BA2CBFA372 /* Pods-EthereumPriceMonitor.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		143262F31D116C9C2E3E15557EBECAF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D41B2C390CE9655ED47C9C715D9A15C /* Pods-EthereumPriceMonitor.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		17B59A8C71558F6811090B06E2540048 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECA409F9F2AC88D578F7ABC448216F96 /* EarlGreyApp.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2DEBDC8CB78FA9092886CEAB41EA5799 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CE2BF9E940693FB47D584565417BEA1 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32804E2DEF8E56A079C80BD8C7536334 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5346D24F2530D09EB7B1B0A171053C7 /* eDistantObject.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/eDistantObject/eDistantObject-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/eDistantObject/eDistantObject-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/eDistantObject/eDistantObject.modulemap";
-				PRODUCT_MODULE_NAME = eDistantObject;
-				PRODUCT_NAME = eDistantObject;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		62B8070329551EBECAE3FB25BFD332A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99683CBA18514C89FB3B0DC993B7EBEF /* EarlGreyTest.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EarlGreyTest/EarlGreyTest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EarlGreyTest/EarlGreyTest-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/EarlGreyTest/EarlGreyTest.modulemap";
-				PRODUCT_MODULE_NAME = EarlGreyTest;
-				PRODUCT_NAME = EarlGreyTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		71243899B61152433AAE34EE86456EE7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2282,7 +2021,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2292,6 +2031,281 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		15500B806639EA5E4CC8BE96EF0B89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBD60C580B8DB2ED1A9AE6C965FC8E0 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17B59A8C71558F6811090B06E2540048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA409F9F2AC88D578F7ABC448216F96 /* EarlGreyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AF228247A0986F7E3EDCD115A5D667F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEE7C6A6D5EEA8CF05F56F7C55F8151 /* Pods-EthereumPriceMonitor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32804E2DEF8E56A079C80BD8C7536334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5346D24F2530D09EB7B1B0A171053C7 /* eDistantObject.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/eDistantObject/eDistantObject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/eDistantObject/eDistantObject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/eDistantObject/eDistantObject.modulemap";
+				PRODUCT_MODULE_NAME = eDistantObject;
+				PRODUCT_NAME = eDistantObject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CBF1D38711A3236E7EC261BDBAE1C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E201F7D9145C3D8DF8E096638B33AA /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61F8CA8213314A5A5B800CA1EA5E3291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAAB4A8D4EB30371A1A498162F80B3E /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62B8070329551EBECAE3FB25BFD332A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99683CBA18514C89FB3B0DC993B7EBEF /* EarlGreyTest.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EarlGreyTest/EarlGreyTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EarlGreyTest/EarlGreyTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EarlGreyTest/EarlGreyTest.modulemap";
+				PRODUCT_MODULE_NAME = EarlGreyTest;
+				PRODUCT_NAME = EarlGreyTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7835845A3BF62B7356328A4539082513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68FCE9192443D9C0DDD7D9E89C6B9A9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -2330,41 +2344,65 @@
 			};
 			name = Debug;
 		};
-		92BEC52CCFA06677EBF439C453DC025A /* Release */ = {
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD6186D3AC9552184B1DE32FFD1DA219 /* Pods-EthereumPriceMonitorTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitorTests/Pods-EthereumPriceMonitorTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitorTests/Pods-EthereumPriceMonitorTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
@@ -2404,6 +2442,44 @@
 			};
 			name = Release;
 		};
+		DC3FF7A7F02BD8A0120A6A0C6F7AB6A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16FFF174D83599738581BD91FC4724B /* Pods-EthereumPriceMonitor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E38272604DDBE20B4627FB1E37615351 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E9691E7EB8AC2F629D09F6DF6C4E383 /* EarlGreyApp.release.xcconfig */;
@@ -2422,80 +2498,6 @@
 			};
 			name = Release;
 		};
-		EE2DA40387EE4166EE5FF7803E6E1CD2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99A45A45D81420349CD10DD2452B7CBF /* Pods-EthereumPriceMonitorTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitorTests/Pods-EthereumPriceMonitorTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitorTests/Pods-EthereumPriceMonitorTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EEDE2091D4C2AF385C5BC396C02173EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22D008006AA3A34D25F6DF7053F24B31 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2508,11 +2510,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		24E805B650C19338C90FCED0E5D5948C /* Build configuration list for PBXNativeTarget "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7835845A3BF62B7356328A4539082513 /* Debug */,
+				15500B806639EA5E4CC8BE96EF0B89ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		24F0602AE72083D682A2D0DFAE184FC2 /* Build configuration list for PBXNativeTarget "Pods-EthereumPriceMonitor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11325A62F252C2263D2793D8A6B1F0F4 /* Debug */,
-				143262F31D116C9C2E3E15557EBECAF4 /* Release */,
+				1AF228247A0986F7E3EDCD115A5D667F /* Debug */,
+				DC3FF7A7F02BD8A0120A6A0C6F7AB6A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2520,8 +2531,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
-				71243899B61152433AAE34EE86456EE7 /* Release */,
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2529,17 +2540,8 @@
 		487D07DE9FFF8324E6DADA3474D4B2FC /* Build configuration list for PBXNativeTarget "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEDE2091D4C2AF385C5BC396C02173EA /* Debug */,
-				2DEBDC8CB78FA9092886CEAB41EA5799 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CBEB563C3C18E4C886D1EBC70043517B /* Build configuration list for PBXNativeTarget "Pods-EthereumPriceMonitorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE2DA40387EE4166EE5FF7803E6E1CD2 /* Debug */,
-				92BEC52CCFA06677EBF439C453DC025A /* Release */,
+				4CBF1D38711A3236E7EC261BDBAE1C9B /* Debug */,
+				61F8CA8213314A5A5B800CA1EA5E3291 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

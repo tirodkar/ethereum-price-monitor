@@ -20,9 +20,9 @@
 		1839ED5125C56234005EC5FF /* EthereumPriceMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED5025C56234005EC5FF /* EthereumPriceMonitorUITests.swift */; };
 		1839ED6525C5771D005EC5FF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED6425C5771D005EC5FF /* APIService.swift */; };
 		1839ED6B25C58D2E005EC5FF /* Cryptocurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839ED6A25C58D2E005EC5FF /* Cryptocurrency.swift */; };
-		69746385796828DB44CCDC2F /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CFBAD77A956B61B3C0FD5B /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */; };
-		D89875D8E7DB26D4435B1C03 /* Pods_EthereumPriceMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB94FA22E92AE2FD4B46BCCA /* Pods_EthereumPriceMonitor.framework */; };
-		E82DA199FF3314BDA7E68242 /* Pods_EthereumPriceMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFF894E02D2C99C6AA31F72 /* Pods_EthereumPriceMonitorTests.framework */; };
+		2A9E5BA6445601D74F667668 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE4862E08CD5DE40BA4B4A8 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */; };
+		ED4C5A37BCCEEB91EC46F976 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58C67D06DCEB5DC2B62E08C /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework */; };
+		ED7FB4E8BAD322458B86C394 /* Pods_EthereumPriceMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC639B0167FBCB359628AF8 /* Pods_EthereumPriceMonitor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,12 +65,14 @@
 		1839ED6A25C58D2E005EC5FF /* Cryptocurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency.swift; sourceTree = "<group>"; };
 		22F71CD01D3B718F2580AC97 /* Pods-EthereumPriceMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitorTests/Pods-EthereumPriceMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		3312F32C8A34A860F570CB18 /* Pods-EthereumPriceMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitor.debug.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		3BE4862E08CD5DE40BA4B4A8 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6005A447EDFCC1744C19D3D9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
-		61CFBAD77A956B61B3C0FD5B /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DFF894E02D2C99C6AA31F72 /* Pods_EthereumPriceMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthereumPriceMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD33BC926BB42CD45305D32 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
 		958EC0769E72FE66B0585534 /* Pods-EthereumPriceMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitor.release.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor.release.xcconfig"; sourceTree = "<group>"; };
 		9CBDCAC59639B5CFFB366DB5 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests/Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CB94FA22E92AE2FD4B46BCCA /* Pods_EthereumPriceMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthereumPriceMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC639B0167FBCB359628AF8 /* Pods_EthereumPriceMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthereumPriceMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01D6C56ABCE74455908E19E /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F58C67D06DCEB5DC2B62E08C /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91591374C2B4F4B2126CF46 /* Pods-EthereumPriceMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthereumPriceMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-EthereumPriceMonitorTests/Pods-EthereumPriceMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D89875D8E7DB26D4435B1C03 /* Pods_EthereumPriceMonitor.framework in Frameworks */,
+				ED7FB4E8BAD322458B86C394 /* Pods_EthereumPriceMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82DA199FF3314BDA7E68242 /* Pods_EthereumPriceMonitorTests.framework in Frameworks */,
+				ED4C5A37BCCEEB91EC46F976 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69746385796828DB44CCDC2F /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework in Frameworks */,
+				2A9E5BA6445601D74F667668 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +181,8 @@
 				6005A447EDFCC1744C19D3D9 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorUITests.release.xcconfig */,
 				F91591374C2B4F4B2126CF46 /* Pods-EthereumPriceMonitorTests.debug.xcconfig */,
 				22F71CD01D3B718F2580AC97 /* Pods-EthereumPriceMonitorTests.release.xcconfig */,
+				E01D6C56ABCE74455908E19E /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig */,
+				6DD33BC926BB42CD45305D32 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -186,9 +190,9 @@
 		DF37438E68ECA92C08F72E36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB94FA22E92AE2FD4B46BCCA /* Pods_EthereumPriceMonitor.framework */,
-				61CFBAD77A956B61B3C0FD5B /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */,
-				6DFF894E02D2C99C6AA31F72 /* Pods_EthereumPriceMonitorTests.framework */,
+				BDC639B0167FBCB359628AF8 /* Pods_EthereumPriceMonitor.framework */,
+				F58C67D06DCEB5DC2B62E08C /* Pods_EthereumPriceMonitor_EthereumPriceMonitorTests.framework */,
+				3BE4862E08CD5DE40BA4B4A8 /* Pods_EthereumPriceMonitor_EthereumPriceMonitorUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,6 +227,7 @@
 				1839ED3D25C56234005EC5FF /* Sources */,
 				1839ED3E25C56234005EC5FF /* Frameworks */,
 				1839ED3F25C56234005EC5FF /* Resources */,
+				9E8FA54D222AD90D94381277 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,7 +362,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EthereumPriceMonitorTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -423,6 +428,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EthereumPriceMonitor/Pods-EthereumPriceMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8FA54D222AD90D94381277 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests/Pods-EthereumPriceMonitor-EthereumPriceMonitorTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -619,6 +641,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SH32VB269;
 				INFOPLIST_FILE = EthereumPriceMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,6 +662,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SH32VB269;
 				INFOPLIST_FILE = EthereumPriceMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -652,14 +676,14 @@
 		};
 		1839ED5925C56234005EC5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91591374C2B4F4B2126CF46 /* Pods-EthereumPriceMonitorTests.debug.xcconfig */;
+			baseConfigurationReference = E01D6C56ABCE74455908E19E /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SH32VB269;
 				INFOPLIST_FILE = EthereumPriceMonitorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,14 +699,14 @@
 		};
 		1839ED5A25C56234005EC5FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22F71CD01D3B718F2580AC97 /* Pods-EthereumPriceMonitorTests.release.xcconfig */;
+			baseConfigurationReference = 6DD33BC926BB42CD45305D32 /* Pods-EthereumPriceMonitor-EthereumPriceMonitorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7SH32VB269;
 				INFOPLIST_FILE = EthereumPriceMonitorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -718,11 +742,19 @@
 					"\"${PODS_ROOT}/EarlGreyTest/AppFramework/Action\"/**",
 				);
 				INFOPLIST_FILE = EthereumPriceMonitorUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"EarlGreyTest\"",
+					"-framework",
+					"\"XCTest\"",
+					"-framework",
+					"\"eDistantObject\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fbaumgart.EthereumPriceMonitorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -748,11 +780,19 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EarlGreyTest/AppFramework/Action\"",
 				);
 				INFOPLIST_FILE = EthereumPriceMonitorUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"EarlGreyTest\"",
+					"-framework",
+					"\"XCTest\"",
+					"-framework",
+					"\"eDistantObject\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fbaumgart.EthereumPriceMonitorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
